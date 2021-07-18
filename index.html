@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+  <script src="https://kit.fontawesome.com/4a82e49f1a.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>GoGreen</title>
+
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav" style="margin-bottom:20px">
+      <h1 class="logoname"><B>GoGreen</B></h1>
+      <div>
+        <input type="text" id="myinput" placeholder="search" class="search">
+        <button class="submitbtn">SEARCH</button>
+      </div>
+
+      <div class="shoppingicons">
+        <div>
+          <a class="btn--login-modal" href="#"><i class="fa fa-user"></i></a>
+          <a class="btn--wishlist-modal" style="color: red;" href="#"><i class="fa fa-heart"></i></a>
+          <a class="btn--cart-modal" style="color: black;" href="#"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div class="shoppingicons-name">
+          Profile Wishlist Bag
+        </div>
+      </div>
+    </nav>
+
+    <nav class="nav1" style="background-color: white" style="margin-bottom:20px">
+      <ul class="nav__links">
+        <li class="nav__item">
+          <a class=" nav__link active btn--home-modal" href="#" style="color: white; background-color: green;">Home<sub
+              style="font-size: larger;"></sub></a>
+
+        </li>
+        <li class="nav__item">
+          <a class="nav__link btn--plant-modal" href="#">Plants<sub style="font-size: larger;"><i
+                class="fa fa-caret-down"></i></sub></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link btn--pack-modal" href="#">Top-Plants-Packs<sub style="font-size: larger;"><i
+                class="fa fa-caret-down"></i></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link btn--seed-modal" href="#">seeds<sub style="font-size: larger;"><i
+                class="fa fa-caret-down"></i></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link btn--flower-modal" href="#">flowers<sub style="font-size: larger;"><i
+                class="fa fa-caret-down"></i></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link btn--tool-modal" href="#">tools<sub style="font-size: larger;"><i
+                class="fa fa-caret-down"></i></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link btn--soil-modal" href="#">soil&fertilizers<sub style="font-size: larger;"><i
+                class="fa fa-caret-down"></i></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link btn--pebble-modal" href="#">pebbles<sub style="font-size: larger;"><i
+                class="fa fa-caret-down"></i></a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link forscrolling" href="#section--1">new offers</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link forscrolling" href="#section--2">consultation</a>
+        </li>
+        <li class="nav__item">
+          <a class="nav__link forscrolling" href="#section--3">reviews</a>
+        </li>
+        <li>
+          <a class="nav__item icon" onclick="myFunction()">
+            <i class="nav__link fa fa-bars" style="font-size: 30px;"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__title">
+      <!-- <h1 onclick="alert('HTML alert')"> -->
+      <h1 class="header_heading" style="font-family:American Typewriter, serif"> <span class="highlight">HOME</span> is
+        where<br>your
+        <span class="highlight">PLANTS</span> are...
+      </h1>
+      <h4 class="highlight header_paragraph" style="font-family:Comic Sans MS, Comic Sans, cursive">Happiness Is.....
+        Buying New Plants
+      </h4>
+      <button class="btn--text btn--scroll-to">Learn more &DownArrow;</button>
+      <img src="https://static-01.daraz.pk/p/b4a21aa96711d9e61bb9e85429c1ab18.jpg" class="header__img" />
+    </div>
+  </header>
+
+  <section class="section" id="section--1">
+    <div class="section__title">
+      <h2 class="section__description highlight">**New Offers--Get <span
+          style="color: rgb(250, 35, 7);"><b>45%</b></span> Off💥💥**</h2>
+      <h3 class="section__header">
+        HAPPINESS IS.....HAVING MORE AND MORE PLANTS
+      </h3>
+    </div>
+
+    <div class="product-grid">
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant1.jpg"></div>
+        <div class="product-description">
+          <p class="product-name product_name1">Agloneema(commutatum plant)</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i><b class="money1">289</b></span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>549</span>
+            <a class="product-cart agloneema_cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like agloneema_like" href="#"><i class="fa fa-heart"></i></a>
+
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant2.jpg"></div>
+        <div class="product-description">
+          <p class="product-name product_name2">purple flower</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i><b class="money2">389</b></span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart purple_cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like purple_like" href="#"><i class="fa fa-heart"></i></a>
+
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant3.jpeg"></div>
+        <div class="product-description">
+          <p class="product-name product_name3">Snake Plant</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i><b class="money3">489</b></span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>749</span>
+            <a class="product-cart snake_cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like snake_like" href="#"><i class="fa fa-heart"></i></a>
+
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant4.jpg"></div>
+        <div class="product-description">
+          <p class="product-name product_name4">Aspidistra</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i><b class="money4">589</b></span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>849</span>
+            <a class="product-cart aspidistra_cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like aspidistra_like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant5.jpeg"></div>
+        <div class="product-description">
+          <p class="product-name product_name5">Alovera</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i><b class="money5">689</b></span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>949</span>
+            <a class="product-cart alovera_cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like alovera_like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant6.jfif"></div>
+        <div class="product-description">
+          <p class="product-name">Cactus</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant7.webp"></div>
+        <div class="product-description">
+          <p class="product-name">Lily</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant8.jpg"></div>
+        <div class="product-description">
+          <p class="product-name">Syngonium</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant9.jpg"></div>
+        <div class="product-description">
+          <p class="product-name">Money plant</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant10.jpg"></div>
+        <div class="product-description">
+          <p class="product-name">Jade plant</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant11.jpeg"></div>
+        <div class="product-description">
+          <p class="product-name">Crasulla Erosula Camfire</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant12.jpg"></div>
+        <div class="product-description">
+          <p class="product-name">Yucca plant</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant13.webp"></div>
+        <div class="product-description">
+          <p class="product-name">Bougainvillea plant</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant14.jpg"></div>
+        <div class="product-description">
+          <p class="product-name">pack of three garden agave plant</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant15.jpg"></div>
+        <div class="product-description">
+          <p class="product-name">Swiss cheese plant</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div><img class="product-image" src="img/plant16.jpg"></div>
+        <div class="product-description">
+          <p class="product-name">Cataractarum Palm</p>
+          <p style="word-spacing: 16px;">
+            <span class="money-desc"><i class="fa fa-rupee-sign"></i>389</span>
+            <span style="text-decoration:line-through;"><i class="fa fa-rupee-sign"></i>649</span>
+            <a class="product-cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+            <a class="product-like" href="#"><i class="fa fa-heart"></i></a>
+          </p>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="section" id="section--2">
+    <div class="section__title">
+      <h2 class="section__description">Consultaion</h2>
+      <h3 class="section__header">
+        The love of gardening is a seed once sown that never dies.
+      </h3>
+    </div>
+
+    <div class="operations">
+      <div class="operations__tab-container">
+        <button class="btn operations__tab operations__tab--1 operations__tab--active" data-tab="1">
+          <span>01</span>Instant Advisor
+        </button>
+        <button class="btn operations__tab operations__tab--2" data-tab="2">
+          <span>02</span>Plants Experts
+        </button>
+        <button class="btn operations__tab operations__tab--3" data-tab="3">
+          <span>03</span>plants care
+        </button>
+      </div>
+      <div class="operations__content operations__content--1 operations__content--active">
+        <div class="operations__icon operations__icon--1">
+          <i class="fa fa-phone-volume"></i>
+        </div>
+        <h5 class="operations__header">
+          The Plant Advisor Consultation
+        </h5>
+        <p>
+          Plants are creatures of their environment,
+          which means that understanding your indoor
+          environment is critical for success with houseplants.<br>
+          Unfortunately, most plant care tips and
+          tricks fail to help you understand how to assess your space.
+          Let me be your Plant Advisor!<br>
+
+          Now you can show me around your space and I’ll tell you exactly
+          what kinds of plants will do well and which ones won’t!<br>
+
+          Most importantly, I’ll coach you in the ways of plant parenthood.
+          The internet is full of little fragments of knowledge but trying
+          to make sense of it all will leave you with more questions than answers.<br>
+
+          Let me guide you from my experience,
+          which formed the foundation of my book
+          ‘The New Plant Parent’ – it was specifically written for
+          home-growers who want a lifelong relationship with plants,
+          not just maintaining pieces of decor!<br>
+          Let me help you make sense of plant care-
+          your houseplants will LOVE you for it!
+        </p>
+      </div>
+
+      <div class="operations__content operations__content--2">
+        <div class="operations__icon operations__icon--2">
+          <i class="fa fa-user-tie"></i>
+        </div>
+        <h5 class="operations__header">
+          Getting the Most from Your Garden Consultation
+        </h5>
+        <p>
+          Be able to explain your site’s conditions: the size of the area you need help with,
+          the amount of sun it receives, what the soil moisture is generally like,
+          if it is flat or sloped, etc. These features are not always visible,
+          but dramatically affect your garden.<br>
+          Identify your goals or concerns about how you would like the area to look and function.<br>
+          Consider addressing just a portion of your property or have in mind
+          a particular project you want to discuss. <br>
+          If possible, show photos of landscapes and gardens you like and plants you want.<br>
+          These special volunteers and arboretum staff members have been recruited
+          to answer all your questions as they arise.<br> Each one is a knowledgeable
+          and experienced gardener and all of them like nothing better than to talk about plants.<br>
+          You will find them roving about on all three days of the sale,
+          eager to help you find the perfect plant for your garden, to help put together
+          combinations of plants that will look and grow well together,
+          or to educate you about the ones you have fallen in love with and can’t live without.<br>
+          These folks will be easy to find: they will be wearing red “Plant Expert” pinnies and friendly smiles.<br>
+          Design Studio and Plant Experts both give you wonderful opportunities to
+          get the advice you need. Be sure to take advantage of these great resources!
+        </p>
+      </div>
+      <div class="operations__content operations__content--3">
+        <div class="operations__icon operations__icon--3">
+          <i class="fa fa-leaf"></i>
+        </div>
+        <h5 class="operations__header">
+          Tips for keeping your plants alive.
+        </h5>
+        <p>
+          <span style="color: rgb(252, 2, 2);">Let there be (not too much) light!</span><br>
+          Plants are sensitive to change.
+          They’re slow to adapt to new environments,
+          so if they’re doing fine, changing the lighting or
+          the height of the plant is a no-no. Remember if you’re
+          planning on growing a giant plant baby to start it off
+          in a location where it will fit when it gets big.<br>
+          <span style="color: rgb(250, 10, 10);">Use the good dirt.</span><br>
+          Common dirt could contain weed seeds, fungi, or pests.
+          Potting soil from your local garden center contains
+          a mixture of materials that can include peat moss and organic matter
+          , suggests certified Garden Designer Madaline Sparks for Real Simple.
+          When you pot your plants, make sure the dirt is slightly
+          moist so the roots can begin working.<br>
+          <span style="color: rgb(250, 8, 8);"> Don’t over-water your plants.</span><br>
+          According to HGTV’s Basics Guide,
+          this is the most common mistake beginners make.
+          Some plants, like succulents, only need watering once a month.
+          Parlor palms and creeping fig like their soil as dry as possible.
+          Avoid drowning by reducing hydration in the cold winter months.
+          For proper watering technique, water the base, not the leaves,
+          to stimulate growth. Test the water for a lukewarm temperature;
+          cold water can shock and damage the roots.<br>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="section--3">
+    <div class="section__title section__title--testimonials">
+      <h2 class="section__description">Not sure yet?</h2>
+      <h3 class="section__header">
+        Millions of Buyers are already making their garden beautiful.
+      </h3>
+    </div>
+
+    <div class="slider">
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">Best decision ever!</h5>
+          <blockquote class="testimonial__text">
+            Yes, GoGreen is a very good online site of plants.
+            I ordered one Top 3 Air Purifier Plants Pack.
+            And the plants were really good and healthy.
+            Apart from giving healthy plants, they provide you proper knowledge
+            about those plants and how to take care of those plants in detail.
+
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-1.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Aarav Lynn</h6>
+            <p class="testimonial__location">mumbai</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            Best product
+          </h5>
+          <blockquote class="testimonial__text">
+            Quisquam itaque deserunt ullam, quia ea repellendus provident,
+            ducimus neque ipsam modi voluptatibus doloremque, corrupti
+            laborum. Incidunt numquam perferendis veritatis neque repellendus.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo
+            deserunt exercitationem deleniti.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-2.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Miyah Miles</h6>
+            <p class="testimonial__location">Dehradun</p>
+          </address>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="testimonial">
+          <h5 class="testimonial__header">
+            plants are really of good quality and beautiful
+          </h5>
+          <blockquote class="testimonial__text">
+            Debitis, nihil sit minus suscipit magni aperiam vel tenetur
+            incidunt commodi architecto numquam omnis nulla autem,
+            necessitatibus blanditiis modi similique quidem. Odio aliquam
+            culpa dicta beatae quod maiores ipsa minus consequatur error sunt,
+            deleniti saepe aliquid quos inventore sequi. Necessitatibus id
+            alias reiciendis, perferendis facere.
+          </blockquote>
+          <address class="testimonial__author">
+            <img src="img/user-3.jpg" alt="" class="testimonial__photo" />
+            <h6 class="testimonial__name">Francisco Gomes</h6>
+            <p class="testimonial__location">Banglore</p>
+          </address>
+        </div>
+      </div>
+
+      <button class="slider__btn slider__btn--left">&larr;</button>
+      <button class="slider__btn slider__btn--right">&rarr;</button>
+      <div class="dots"></div>
+    </div>
+  </section>
+
+  <section class="section section--sign-up">
+    <div class="section__title">
+      <h3 class="section__header">
+        The best day to join GoGreen was one year ago. The second best is
+        today!
+      </h3>
+    </div>
+    <button class="btn btn--login-modal">Open your free account today!</button>
+  </section>
+
+  <footer class="footer">
+    <ul class="footer__nav">
+      <li class="footer__item">
+        <a class="footer__link" href="#">About</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Pricing</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Terms of Use</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Privacy Policy</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Careers</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Blog</a>
+      </li>
+      <li class="footer__item">
+        <a class="footer__link" href="#">Contact Us</a>
+      </li>
+    </ul>
+    <a href="#" class="footer__logo"><i class="fa fa-leaf"></i></a>
+    <p class="footer__copyright">
+      join and receive gardening tips and more
+    </p>
+  </footer>
+
+  <div class="modal_login hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Open your account <br />
+      and get your <span class="highlight"> plant</span>
+    </h2>
+    <form class="modal__form">
+      <label>First Name</label>
+      <input type="text" class="fn" />
+      <label>Last Name</label>
+      <input type="text" class="ln" />
+      <label>Email Address</label>
+      <input type="email" class="email " />
+      <button class="btn next-step">Next step &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+
+
+
+  <div class="modal_wishlist hidden">
+    <button class="btn--close-modal-wishlist">&times;</button>
+    <h2 class="modal__header">
+      Check the plants you <span class="highlight"> Like</span>
+    </h2>
+    <div class="wishlist_grid">
+      <div class="wishlist_item">
+        <p><span class="wishlist_name1"></span>
+          <span class="wishlist_money">
+            <span class="money_icon1  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="wishlist_money1 "></span></span>
+        </p>
+      </div>
+      <div class="wishlist_item">
+        <p><span class="wishlist_name2"></span>
+          <span class="wishlist_money">
+            <span class="money_icon2  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="wishlist_money2 "></span></span>
+        </p>
+      </div>
+      <div class="wishlist_item">
+        <p><span class="wishlist_name3"></span>
+          <span class="wishlist_money">
+            <span class="money_icon3  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="wishlist_money3 "></span></span>
+        </p>
+      </div>
+      <div class="wishlist_item">
+        <p><span class="wishlist_name4"></span>
+          <span class="wishlist_money">
+            <span class="money_icon4  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="wishlist_money4 "></span></span>
+        </p>
+      </div>
+      <div class="additemtowishlist">ADD ITEMS TO YOUR WISHLIST😍</div>
+
+    </div>
+  </div>
+  <div class="overlay hidden"></div>
+
+
+
+
+  <div class="modal_cart hidden">
+    <button class="btn--close-modal-cart">&times;</button>
+    <h2 class="modal__header">
+      check the plants in your<br>
+      <span class="highlight">shopping cart</span>
+    </h2>
+    <div class="wishlist_grid">
+      <div class="wishlist_item">
+        <p><span class="cart_name1"></span>
+          <span class="wishlist_money">
+            <span class="cartmoney_icon1  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="cart_money1 "></span></span>
+        </p>
+      </div>
+      <div class="wishlist_item">
+        <p><span class="cart_name2"></span>
+          <span class="wishlist_money">
+            <span class="cartmoney_icon2  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="cart_money2 "></span></span>
+        </p>
+      </div>
+      <div class="wishlist_item">
+        <p><span class="cart_name3"></span>
+          <span class="wishlist_money">
+            <span class="cartmoney_icon3  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="cart_money3 "></span></span>
+        </p>
+      </div>
+      <div class="wishlist_item">
+        <p><span class="cart_name4"></span>
+          <span class="wishlist_money">
+            <span class="cartmoney_icon4  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="cart_money4 "></span></span>
+        </p>
+      </div>
+      <div class="wishlist_item">
+        <p><span style="color: rgb(248, 11, 59);">Total Amount:</span>
+          <span class="wishlist_money">
+            <span class="totalmoney_icon  hidden"><i class="fa fa-rupee-sign"></i></span>
+            <span class="total_money "></span></span>
+        </p>
+      </div>
+
+      <div style="float: left;"><button class="place_order">Place Order</button></div>
+      <div class="additemtowishlist" style="color: black;">ADD ITEMS TO YOUR BAG<i class="fa fa-shopping-cart"></i>
+      </div>
+    </div>
+  </div>
+  <div class="overlay hidden"></div>
+
+
+  <div class="modal_place_order hidden">
+    <button class="btn--close-modal-placeorder">&times;</button>
+    <h2 class="modal__header">
+      your order has been <br />
+      <span class="highlight"> placed</span> <span style="color: black;"><i class="fa fa-truck"></i></span>
+    </h2>
+    <div class="modal_pd_data">
+      it will be delivered within 5 days from now:<br>
+      <span style="color: rgb(224, 30, 176);"> order placed on :</span>
+      <span id="date1"></span><br>
+      <span style="color: tomato;"> receive your order on :</span>
+      <span id="date2"></span><br>
+      <label>Track Order:</label>
+      <meter style="width: 30rem;" style="height: 9rem;" value="0.1">1%</meter></button><br>
+      <span style="color: rgb(7, 121, 50);"> waiting for your order :</span>
+      <span id="timerfororder"> </span>
+    </div>
+
+  </div>
+  <div class="overlay2 hidden"></div>
+
+
+
+
+
+  <div class="modal_seed hidden">
+    <div class="modal-grid">
+      <div>
+        <span class="highlight for_size"> Vegetable / Herb Seeds</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            OP / Desi
+          </li>
+          <li class="modal-lists">
+            Imported / Hybrid
+          </li>
+          <li class="modal-lists">
+            Organic
+          </li>
+          <li class="modal-lists">
+            Heirloom
+          </li>
+          <li class="modal-lists">
+            Indian Vegetable Seeds
+          </li>
+          <li class="modal-lists">
+            Indian Herb Seeds
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size"> Flower Seeds</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            OP / Desi
+          </li>
+          <li class="modal-lists">
+            Imported / Hybrid
+          </li>
+          <li class="modal-lists">
+            Organic
+          </li>
+          <li class="modal-lists">
+            Fragnant flower seeds
+          </li>
+          <li class="modal-lists">
+            Special flower Seeds
+          </li>
+          <li class="modal-lists">
+            Indian Herb Seeds
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size"> Other Seeds</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Seed balls
+          </li>
+          <li class="modal-lists">
+            Fruit seeds
+          </li>
+          <li class="modal-lists">
+            grass seeds
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="modal_plant hidden">
+    <div class="modal-grid">
+      <div>
+        <span class="highlight for_size "> Plants By Type</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Air plants
+          </li>
+          <li class="modal-lists">
+            Aquatic plants
+          </li>
+          <li class="modal-lists">
+            Bonsai Plants
+          </li>
+          <li class="modal-lists">
+            Ferns
+          </li>
+          <li class="modal-lists">
+            Fruit Plants
+          </li>
+          <li class="modal-lists">
+            Climber Plants
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size">By Features Uses</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Air Puifying Plants
+          </li>
+          <li class="modal-lists">
+            Aromatic Plants
+          </li>
+          <li class="modal-lists">
+            Medicinal Plants
+          </li>
+          <li class="modal-lists">
+            Bougainvillea Plants
+          </li>
+          <li class="modal-lists">
+            Aster Plants
+          </li>
+          <li class="modal-lists">
+            Flowering Creepers
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size"> Plants By Color</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Black Flowering Plants
+          </li>
+          <li class="modal-lists">
+            Blue Flowering Plants
+          </li>
+          <li class="modal-lists">
+            White Flowering Plants
+          </li>
+          <li class="modal-lists">
+            Purple Flowering Plants
+          </li>
+          <li class="modal-lists">
+            Pink Flowering Plants
+          </li>
+          <li class="modal-lists">
+            Yellow Flowering Plants
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="modal_pack hidden">
+    <div class="modal-grid">
+      <div>
+        <span class="highlight for_size">Top Plants Packs</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Top 2 Plants Packs
+          </li>
+          <li class="modal-lists">
+            Top 3 Plants Packs
+          </li>
+          <li class="modal-lists">
+            Top 4 Plants Packs
+          </li>
+          <li class="modal-lists">
+            Top 5 Plants Packs
+          </li>
+          <li class="modal-lists">
+            Plants Packs for Office desk
+          </li>
+          <li class="modal-lists">
+            work-From-Home Plants Packs
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size">Plants Packs By Location</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Indoor Garden
+          </li>
+          <li class="modal-lists">
+            Balcony and Terrace Garden
+          </li>
+          <li class="modal-lists">
+            Vertical Garden
+          </li>
+          <li class="modal-lists">
+            Window Sill
+          </li>
+          <li class="modal-lists">
+            Kids Gardening
+          </li>
+          <li class="modal-lists">
+            Green Beauty
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size"> Plants Packs by Season</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Winter Special Packs
+          </li>
+          <li class="modal-lists">
+            Summer Special Pack
+          </li>
+          <li class="modal-lists">
+            Monsoon Special Pack
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal_pebble hidden">
+    <div class="modal-grid">
+      <div>
+        <span class="highlight for_size">Pebbles by Color</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Black pebbles
+          </li>
+          <li class="modal-lists">
+            Blue pebbles
+          </li>
+          <li class="modal-lists">
+            Brown pebbles
+          </li>
+          <li class="modal-lists">
+            Green pebbles
+          </li>
+          <li class="modal-lists">
+            Red pebbles
+          </li>
+          <li class="modal-lists">
+            and more....
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size">Pebbles by Type</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Aquarium Pebbles
+          </li>
+          <li class="modal-lists">
+            chips Pebbles
+          </li>
+          <li class="modal-lists">
+            Granite/Marble Pebbles
+          </li>
+          <li class="modal-lists">
+            Sand Stone
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size">Pebbles by Size</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Big Pebbles
+          </li>
+          <li class="modal-lists">
+            Medium Pebbles
+          </li>
+          <li class="modal-lists">
+            Small Pebbles
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+  </div>
+  <div class="modal_soil hidden">
+    <div class="modal-grid" style="grid-template-columns: 1fr 1fr;">
+      <div>
+        <span class="highlight for_size"> soils</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Coco Dung (Coconut fiber Cow dung)
+          </li>
+          <li class="modal-lists">
+            Moss Peat
+          </li>
+          <li class="modal-lists">
+            Potting Soil Mix for Fruit Plants
+          </li>
+          <li class="modal-lists">
+            Potting Soil Mix for Cactus and Succulent plants
+          </li>
+          <li class="modal-lists">
+            General Purpose Garden Potting
+          </li>
+          <li class="modal-lists">
+            Processed Organic Poultry Manure
+          </li>
+        </ul>
+      </div>
+      <div>
+        <span class="highlight for_size">Fetilizers</span>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Jeevamrut
+          </li>
+          <li class="modal-lists">
+            Neem Raksha
+          </li>
+          <li class="modal-lists">
+            Sanjeevani (Rose Blooming Tonic)
+          </li>
+          <li class="modal-lists">
+            Bone Meal Powder
+          </li>
+          <li class="modal-lists">
+            Vermicompost
+          </li>
+          <li class="modal-lists">
+            Plant O Boost
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="modal_tool hidden">
+    <div class="modal-grid" style="grid-template-columns: 1fr 1fr;">
+      <div>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Hand Trowel
+          </li>
+          <li class="modal-lists">
+            Secateurs
+          </li>
+          <li class="modal-lists">
+            Hoe
+          </li>
+          <li class="modal-lists">
+            Gardening Gloves
+          </li>
+          <li class="modal-lists">
+            Spade
+          </li>
+          <li class="modal-lists">
+            Watering can
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Fork
+          </li>
+          <li class="modal-lists">
+            Shovel
+          </li>
+          <li class="modal-lists">
+            Rake
+          </li>
+          <li class="modal-lists">
+            Saw
+          </li>
+          <li class="modal-lists">
+            Wheelbarrow
+          </li>
+          <li class="modal-lists">
+            Loopers
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="modal_flower hidden">
+    <div class="modal-grid">
+      <div>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Marigold
+          </li>
+          <li class="modal-lists">
+            Hibiscus
+          </li>
+          <li class="modal-lists">
+            Pansy
+          </li>
+          <li class="modal-lists">
+            Lotus
+          </li>
+          <li class="modal-lists">
+            Dahlia
+          </li>
+          <li class="modal-lists">
+            Bougainvillea
+          </li>
+          <li class="modal-lists">
+            Frangipani
+          </li>
+          <li class="modal-lists">
+            Jasmine
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Fox Brush Orchid
+          </li>
+          <li class="modal-lists">
+            Zinnia
+          </li>
+          <li class="modal-lists">
+            Sunflower
+          </li>
+          <li class="modal-lists">
+            roses
+          </li>
+          <li class="modal-lists">
+            Lilies
+          </li>
+          <li class="modal-lists">
+            Aconite
+          </li>
+          <li class="modal-lists">
+            Agapanthus
+          </li>
+          <li class="modal-lists">
+            Tulip
+          </li>
+        </ul>
+      </div>
+      <div>
+        <ul class="modal-list">
+          <li class="modal-lists">
+            Lavender
+          </li>
+          <li class="modal-lists">
+            Gardenias
+          </li>
+          <li class="modal-lists">
+            Orchids
+          </li>
+          <li class="modal-lists">
+            Gerbera Daisies
+          </li>
+          <li class="modal-lists">
+            Bleeding Heart
+          </li>
+          <li class="modal-lists">
+            Bluebells
+          </li>
+          <li class="modal-lists">
+            Clovers
+          </li>
+          <li class="modal-lists">
+            and more...
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay1 hidden"></div>
+
+  <!-- <script src="script.js"></script> -->
+</body>
+
+</html>
